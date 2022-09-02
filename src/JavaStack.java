@@ -15,10 +15,9 @@ public class JavaStack {
 		        
 				Scanner sc = new Scanner(System.in);
 				Stack<String> stk = new Stack<String>();
-				Stack<Object> rest = new Stack<>();				
 				String input=sc.next();
 		        stk.push(input);
-		        
+		        sc.close();
 		        while(stk.empty() != true)
 		        {	      	
 		            String s = stk.pop();

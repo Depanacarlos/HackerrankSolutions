@@ -68,7 +68,10 @@ class Prioridad  {
 			}else if(query.equals("SERVED")) {
 				System.out.println(lista.poll());
 			}
+			s.close();
 		}
+		
+		
 		
 		while(lista.size() > 0) {
 			otra.add(lista.poll());

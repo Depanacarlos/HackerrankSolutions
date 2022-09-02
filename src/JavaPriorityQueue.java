@@ -78,6 +78,8 @@ public class JavaPriorityQueue {
 			}
 		}
 		
+		scan.close();
+		
 		while(Students.size() > 0) {
 			System.out.println(Students.poll().toString()); 
 		}

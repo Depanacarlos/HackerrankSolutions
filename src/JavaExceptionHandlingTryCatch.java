@@ -8,7 +8,7 @@ public class JavaExceptionHandlingTryCatch {
 		try {
 			int x = scan.nextInt();
 			int y = scan.nextInt();
-			
+			scan.close();
 			System.out.println(x/y);
 		} catch (ArithmeticException e) {
 			System.out.println(e);

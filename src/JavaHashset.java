@@ -13,6 +13,7 @@ public class JavaHashset {
 	            pair_left[i] = s.next();
 	            pair_right[i] = s.next();
 	        }
+	        s.close();
 
 	//Write your code here
 	    HashSet<String> hset = new HashSet<String>();

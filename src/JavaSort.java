@@ -54,6 +54,8 @@ public class JavaSort
 			
 			testCases--;
 		}
+		
+		in.close();
             
 		studentList.sort(null);
       	for(Student st: studentList){

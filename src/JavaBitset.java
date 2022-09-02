@@ -46,5 +46,7 @@ public class JavaBitset {
 			System.out.printf("%d %d %n", bs1.cardinality(),bs2.cardinality());
 		}
 		
+		scan.close();
+		
 	}
 }

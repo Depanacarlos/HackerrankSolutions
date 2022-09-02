@@ -4,8 +4,8 @@ public class JavaDequeue {
 	
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Deque deque = new ArrayDeque<>();
-        HashSet hash = new HashSet<>();
+        Deque<Object> deque = new ArrayDeque<>();
+        HashSet<Object> hash = new HashSet<>();
         
         int count = Integer.MIN_VALUE;
       	
@@ -30,7 +30,8 @@ public class JavaDequeue {
             }
             
             
-        }        
+        }
+        in.close();
        System.out.println(count);
         
     }

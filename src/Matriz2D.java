@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -20,6 +19,7 @@ public class Matriz2D {
 				}
 				list.add(temp);
 			}
+			scan.close();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
